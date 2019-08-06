@@ -2,17 +2,11 @@ language: node_js
 
 node_js:
   - '10'
-<<<<<<< HEAD
 #branches:
 # only:
 #    - dev
-=======
-branches:
-  only:
-    - dev
->>>>>>> e1d511d79e74b86e735ee2961e641f4d2f657068
-before_script:
-  - psql -c 'create database grace_shopper;' -U postgres
+#before_script:
+#  - psql -c 'create database grace_shopper;' -U postgres
 #deploy:
 # provider: heroku
 # use heroku and travis clis to add encrypted api key
